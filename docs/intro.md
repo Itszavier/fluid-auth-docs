@@ -1,47 +1,50 @@
 ---
 sidebar_position: 1
+title: Introduction
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **FluidAuth**, a modern authentication framework inspired by best practices from Passport.js and NextAuth.js. FluidAuth is designed to make authentication integration simple while giving developers the freedom to customize every aspect of the process. Whether you're building a straightforward app or a complex system, FluidAuth provides the tools you need to create secure, flexible authentication flows with ease.
 
-## Getting Started
+### Why FluidAuth?
 
-Get started by **creating a new site**.
+- **Simple Integration**: Start using FluidAuth without hassle.
+- **Fully Customizable**: Tailor authentication processes to your specific requirements.
+- **Security Focused**: Built with top security practices to protect user data.
+- **Extensible**: Easily extend or add custom providers.
+- **Popular Provider Support**: Includes Google, Facebook, GitHub, and more.
+- **Multiple Authentication Methods**: Supports both OAuth and traditional email/password authentication.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Get Involved
 
-### What you'll need
+FluidAuth is open source, and we welcome contributions from the community. Follow our [code of conduct](code-of-conduct.md) and join us in making authentication easier for everyone.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+## Module Support
 
-Generate a new Docusaurus site using the **classic template**.
+**FluidAuth Express** supports both CommonJS and ES Modules, providing flexibility in how you integrate the package into your project.
 
-The classic template will automatically be added to your project after you run the command:
+### CommonJS
 
-```bash
-npm init docusaurus@latest my-website classic
+For projects using CommonJS, you can import the package with `require`:
+
+```js
+const { AuthService } = require("@fluidauth/express");
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### ES Modules
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+For projects using ES Modules, you can import the package with `import`:
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```js
+import { AuthService } from "@fluidauth/express";
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Both module systems are fully supported to ensure compatibility across different environments. Choose the import method that best fits your project setup.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Typescript
+
+FluidAuth Express comes with full TypeScript support out of the box. There’s no need for additional configuration to enjoy type safety throughout your authentication setup. TypeScript ensures robust type checking, better autocompletion, and overall improved developer experience.
