@@ -19,8 +19,7 @@ Welcome to **FluidAuth**, a modern authentication framework inspired by best pra
 
 ### Get Involved
 
-FluidAuth is open source, and we welcome contributions from the community. Follow our [code of conduct](code-of-conduct.md) and join us in making authentication easier for everyone.
-
+FluidAuth is open source, and we welcome contributions from the community
 
 ## Module Support
 
