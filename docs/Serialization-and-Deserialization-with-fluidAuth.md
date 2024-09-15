@@ -21,7 +21,7 @@ authService.serializeUser(function(user) {
 
 **Parameters:**
 
-- `user`: The user object to be serialized.
+- `user`: The user object to be serialized, comes from the `AuthResponse` user.
 
 **Returns:**
 
@@ -50,8 +50,9 @@ authService.deserializeUser(function(id) {
 **Returns:**
 
 - The user object corresponding to the identifier, or `null` if no user is found.
-:::Note=[Note]
 
-- Replace `users.find(user => user.id === id)` with your actual user lookup logic.
+  
+:::Note=[Note]
+ Replace `users.find(user => user.id === id)` with your actual user lookup logic.
 :::
 
