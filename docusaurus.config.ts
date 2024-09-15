@@ -71,7 +71,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'FluidAuth',
-     
+      hideOnScroll: true, 
       items: [
         {
           type: 'docSidebar',
@@ -80,7 +80,11 @@ const config: Config = {
           label: 'Docs',
         },
 
+        
+          
+        
         {to: 'blog', label: 'Blog', position: 'left'},
+
         {
           href: 'https://www.npmjs.com/package/@fluidauth/express',
           label: 'Npm',

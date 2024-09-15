@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Installation & Usage
 
 Welcome to **FluidAuth Express**! This guide will help you get started with the package and integrate it into your Express application.
