@@ -41,7 +41,7 @@ const config: Config = {
           editUrl:
             'https://github.com/Itszavier/fluid-auth-docs/tree/main',
         },
-     /*   blog: {
+       blog: {
 
           showReadingTime: true,
           feedOptions: {
@@ -56,9 +56,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        },*/
+        },
 
-        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -77,9 +76,11 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'right',
+          position: 'left',
           label: 'Docs',
         },
+
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.npmjs.com/package/@fluidauth/express',
           label: 'Npm',
