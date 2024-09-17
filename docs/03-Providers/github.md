@@ -1,7 +1,6 @@
 ---
 title: GitHub Provider
 description: The GitHub Provider in FluidAuth Express simplifies integrating GitHub authentication into your application.
-slug: /github-provider
 ---
 
 **Provider Name:** `github`

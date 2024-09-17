@@ -1,7 +1,6 @@
 ---
 title: BaseProvider
 description: learn about the base Provider which all provider derive from 
-slug: /baseProvider
 ---
 
 Learn about the Base Provider
