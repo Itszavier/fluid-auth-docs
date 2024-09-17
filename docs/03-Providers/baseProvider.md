@@ -9,9 +9,6 @@ All providers in FluidAuth Express are derived from the BaseProvider class. Unde
 
 Let's recreate the GitHub provider, as it's the simplest among all, using the BaseProvider class. This will help us understand how providers are made in FluidAuth.
 
-Let's recreate the GitHub provider, as it's the simplest among all, using the BaseProvider class. This will help us understand how providers are made in FluidAuth. Before we begin, it's important to grasp the fundamentals, such as how the OAuth2 flow works.
-
-
 :::info
 More on this topic coming soon
 :::
