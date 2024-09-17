@@ -29,7 +29,10 @@ const config: Config = {
     locales: ['en'],
   },
 
+
+
   presets: [
+    
     [
       'classic',
       {
@@ -69,6 +72,16 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+
+     metadata: [
+      {name: 'keywords', content: 'FluidAuth, authentication framework, open-source authentication, secure authentication, user management, identity management, authentication API, FluidAuth Express, JavaScript authentication, session management'},
+      {name: 'description', content: 'FluidAuth is an open-source authentication framework designed for secure and flexible user authentication. It supports session management, identity management, and integrates seamlessly with FluidAuth-Express.'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'FluidAuth - Open Source Authentication Framework'},
+      {name: 'twitter:description', content: 'FluidAuth is an open-source authentication framework designed for secure and flexible user authentication. Explore its features and integrations.'},
+      {name: 'twitter:image', content: 'https://i.ibb.co/sH7bBJr/security-9783957.png'},
+    ],
+  
     navbar: {
       title: 'FluidAuth',
       hideOnScroll: true, 
