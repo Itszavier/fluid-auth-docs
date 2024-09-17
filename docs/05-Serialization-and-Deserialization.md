@@ -1,9 +1,7 @@
 ---
-title: Serialization and Deserialization with FluidAuth
+title: Serialization and Deserialization
 description: Learn how to use the `serializeUser` and `deserializeUser` functions with FluidAuth to manage user sessions efficiently. This guide provides implementation details and example code for storing and retrieving user information in the session.
 ---
-
-## Serialization and Deserialization with FluidAuth
 
 ### Serialization
 

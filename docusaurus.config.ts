@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'QuickStack', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tszavier', // Usually your GitHub org/user name.
+  projectName: 'fluidauth-express', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -72,6 +72,7 @@ const config: Config = {
     navbar: {
       title: 'FluidAuth',
       hideOnScroll: true, 
+      
       items: [
         {
           type: 'docSidebar',
@@ -81,12 +82,15 @@ const config: Config = {
         },
  
         {to: 'blog', label: 'Blog', position: 'left'},
-
+     
+ 
         {
           href: 'https://www.npmjs.com/package/@fluidauth/express',
           label: 'Npm',
           position: 'right',
         },
+
+
  
         {
           href: 'https://github.com/Itszavier/fluidauth-express',

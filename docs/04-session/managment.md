@@ -1,5 +1,5 @@
 ---
-title: Session Management
+title: Management
 description: Understanding Session Management in FluidAuth
 ---
 

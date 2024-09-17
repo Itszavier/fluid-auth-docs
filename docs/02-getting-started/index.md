@@ -1,6 +1,5 @@
 ---
-title: Providers
-description: provides information on each provider
+title: Getting Started
 ---
 
 import DocCardList from '@theme/DocCardList';
