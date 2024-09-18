@@ -37,7 +37,7 @@ const session = new Session({
 
 ```
 :::tip[note]
-MemoryStore should only be used in development. For production, use a session store linked to a database. For more information on session stores, visit here. [visit here](/docs/04-session/store.md)
+MemoryStore should only be used in development. For production, use a session store linked to a database. For more information on session stores, visit here. [visit here](/docs/05-session/store.md)
 
 :::
 ### Public Methods of the Session Class
