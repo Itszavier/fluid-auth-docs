@@ -1,6 +1,8 @@
 ---
-title: Core Concepts
+title: Guides & Tutorial
+
 ---
+
 
 import DocCardList from '@theme/DocCardList';
 

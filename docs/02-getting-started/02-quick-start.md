@@ -53,11 +53,12 @@ const PORT = process.env.PORT || 3000;
 
 const authService = new AuthService({
   providers: [Github],
-  session: new Session({ secret: "your-session-secret" }),
+  session: new Session({ 
+    secret: "your-session-secret",
+  }),
   redirect: {
-    onLoginSuccess: "/dashboard",
+    successRedirect: "/dashboard",
   },
-  
 });
 
 app.use(express.json());
